@@ -1,0 +1,13 @@
+[package]
+name = "my_proj"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "my_proj"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = "0.22.0-rc.0"
