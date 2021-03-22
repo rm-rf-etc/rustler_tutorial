@@ -1,6 +1,10 @@
 # Example Rust NIF with Rustler
 
 Sharing this example to help others. I'm using a 2020 MacBook Air with the M1 CPU.
+```
+Elixir version 1.11.1
+Erlang version 21.3
+```
 
 Out of the box, rustler would not build for me. Multiple small details tripped me
 up, what you need to be aware of are:
